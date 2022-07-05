@@ -348,7 +348,7 @@ font-weight: bold;
 background-color: #e8eff7;
 padding-top: 5%;
 }
-
+ 
 .hire-wrapper,
 .contact-info,
 .follow-section,
@@ -488,8 +488,23 @@ background-color: #e8eff7;
 
 @media only screen and (min-width: 1440px) {
 
+body{
+font-size: 2.06rem;
+}
+
+#profile-image{
+padding-top: 0%;
+padding-bottom: 9%;
+margin-top: 7%;
+width: 52%;
+}
+
+.about-content-wrapper{
+display: flex;
+}
+
 .about-info {
-font-size: 1rem;
+font-size: 2.06rem;
 text-align: center;
 padding-right: 5%;
 padding-top: 2%;
