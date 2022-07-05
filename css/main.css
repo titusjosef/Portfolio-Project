@@ -226,11 +226,6 @@ text-decoration: none;
 color: black;
 }
 
-#profile-image {
-width: 55%;
-padding-left: 20%;
-}
-
 /* -------------------- Mobile Styles - Homepage -------------------- */
 
 
@@ -369,6 +364,12 @@ justify-content: space-evenly;
 flex-flow: column;
 }
 
+.me-pic{
+width: 78%;
+display: flex;
+justify-content: center;
+}
+
 .about-info {
 text-align: center;
 width: 99%;
@@ -434,14 +435,19 @@ width: 50%;
 padding-right: 67px;
 }
 
+.me-pic{
+width: 92%;
+display: flex;
+justify-content: center;
+}
+    
+
 .about-content-wrapper {
 background-color: #e8eff7;
 }
 
 #profile-image {
-padding-left: 21%;
 padding-top: 0%;
-padding-left: 31%;
 padding-bottom: 9%;
 margin-top: 7%;
 width: 38%;
@@ -486,13 +492,8 @@ background-color: #e8eff7;
 font-size: 1rem;
 text-align: center;
 padding-right: 5%;
-width: 126%;
 padding-top: 2%;
 padding-left: 1%;
 }
-
-#profile-image{
-width: 108%;
-} 
 }
 }
